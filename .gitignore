@@ -1,0 +1,5 @@
+dist
+node_modules
+config/config.json
+config/secrets.json
+.DS_Store
