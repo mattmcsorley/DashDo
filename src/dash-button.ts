@@ -1,4 +1,4 @@
-import { Button } from './models/button'; 
+import { Button } from './models/button';
 import { Options } from './models/options';
 import { Action } from './actions/action';
 import { EmailAction } from './actions/email-action';
@@ -26,7 +26,7 @@ export class DashButton {
       case 'webRequest':
         return new WebRequestAction(this.button.options);
       default:
-        throw('Invalid Action Type: ', actionType);
+        throw(actionType);
     }
   }
 }

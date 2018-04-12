@@ -9,4 +9,5 @@ export interface WebRequestOptions extends Options, CoreOptions {
 
 export interface EmailOptions extends Options, SendMailOptions {
   includeDate: boolean;
+  message: string;
 }
